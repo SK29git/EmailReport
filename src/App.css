@@ -1,0 +1,267 @@
+/**********************************New CSS*****************************************/
+
+/* General styles */
+.head {
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(33, 116, 241);
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.cbl img {
+  max-height: 40px;
+}
+
+.Main {
+  display: block;
+  color: #2776ee;
+  background-image: linear-gradient(to right top, #559af4, #5196f4, #4e92f4, #4c8df3, #4a89f3, #4886f3, #4683f3, #4580f3, #437ef4, #417bf5, #3f79f5, #3e76f6);
+  width: 95%;
+  border-radius: 1cm;
+  margin-left: 20px;
+  height: 350px;
+  max-height: 550px
+}
+
+.container {
+  display: block;
+  background-color: white;
+  width: 95%;
+  height: 550px;
+  max-height: 550px;
+  /* max-width: 1200px; */
+  /* Added max-width for responsiveness */
+  margin: 0 auto;
+  /* Center container horizontally */
+  padding: 25px;
+  border-radius: 0.2cm;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgba(31, 88, 211, 0.678);
+  background-color: rgb(253, 244, 244);
+  box-shadow: 0 0 20px rgba(70, 69, 69, 0.5);
+  border-radius: 0.2cm;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* .input-container {
+  flex: 1;
+  margin-right: 10px;
+} */
+
+input {
+  border-radius: 0.1cm;
+  background-color: #d0e0f7;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #176dc2;
+  border-color: #c1d6f3;
+  border-right-width: 0.1px;
+  border-left-width: 0.1px;
+  border-top-width: 0.1px;
+  border-bottom-width: 0.1px;
+}
+
+select {
+
+  border-radius: 0.1cm;
+  font-size: 17px;
+  font-weight: 500;
+  width: 250px;
+  object-fit: contain;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #176dc2;
+  background-color: #d0e0f7;
+  border: 1px solid #c1d6f3;
+}
+
+option {
+  object-fit: contain;
+  height: 20px;
+  border-radius: 0.1cm;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #176dc2;
+  border-color: #c1d6f3;
+  border: 1px solid #c1d6f3;
+}
+
+
+.form-control {
+
+  margin-bottom: 8px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 9px;
+}
+
+.table-container {
+  margin-top: 20px;
+  background-color: #f5e8e8;
+  overflow-x: auto;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.report-input {
+  margin: 0 10px;
+}
+
+.report-table {
+  overflow-x: auto;
+  width: 100%;
+  height: 400px;
+  /* max-height: 260px; */
+  border-start-start-radius: 0.2cm;
+  border-end-end-radius: 0.3cm;
+
+}
+
+
+
+.report-table table {
+  width: auto;
+  border-collapse: collapse;
+}
+
+
+th {
+  color: white;
+  min-width: 300px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+thead {
+  background-color: #176dc2;
+  color: white;
+  height: 50px;
+  border-start-start-radius: 0.3cm;
+  border-end-end-radius: 0.3cm;
+}
+
+h4 {
+  padding-top: 20px;
+  color: white;
+}
+
+button {
+  font-size: 13px;
+  border: none;
+  height: 26px;
+  width: 120px;
+  background-color: #176dc2;
+  color: white;
+  border-radius: 0.1cm;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #eee9e9;
+}
+
+.Main-cont {
+  display: block;
+  background-color: #e1f0fa;
+  padding: 10px;
+  border-radius: 0.2cm;
+  margin-top: 8px;
+}
+
+.Foot {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+
+.report-table::-webkit-scrollbar-thumb {
+  background-color: blue;
+  /* Change scrollbar thumb color to blue */
+}
+
+@media screen and (max-width: 768px) {
+  .Main {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input-container {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  input,
+  select {
+    max-width: 100%;
+    height: 20px;
+
+  }
+
+  .table-container {
+    overflow-x: auto scroll;
+    width: 100%;
+
+  }
+}
+
+#reportType{
+  width: 150px;
+}
